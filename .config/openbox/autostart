@@ -20,12 +20,6 @@ tint2 &
 setxkbmap -layout us,ru -option grp:win_space_toggle
 setxkbmap -option caps:swapescape &
 
-# Set tapping on touchpad on ("Tapping Enabled" option)
-xinput set-prop 12 319 1 &
-
-# Invert scrolling ("Natural Scrolling Enabled" option)
-xinput set-prop 12 298 1 &
-
 # Set wallpaper
 bash ~/.fehbg
 
@@ -33,7 +27,6 @@ bash ~/.fehbg
 nm-applet &
 
 # Volume control in system tray
-sleep 5
 volumeicon &
 
 # Setting display brightness to 1
